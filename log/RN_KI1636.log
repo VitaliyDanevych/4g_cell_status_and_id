@@ -1,0 +1,20 @@
+Logging to file /home/fmuser2/scripts/4g_status/log/RN_KI1636.log
+                        __  __  ____   _____
+                  /\   |  \/  |/ __ \ / ____|
+                 /  \  | \  / | |  | | (___  
+                / /\ \ | |\/| | |  | |\___ \ 
+               / ____ \| |  | | |__| |____) |
+              /_/    \_\_|  |_|\____/|_____/
+              OSS Framework for MoShell-17.0g 
+              
+           
+[1;31mWARNING: [0mthe AMOS version currently running is more than 54 weeks old.
+It is recommended to always use the latest released moshell version.
+To obtain the latest released version contact your local Ericsson support.
+
+$amosrb_pid = 20002
+
+Checking ip contact...Not OK
+Unable to connect to RN_KI1636:22
+Cannot connect to MO service, exiting...
+Output has been logged to file /home/fmuser2/scripts/4g_status/log/RN_KI1636.log

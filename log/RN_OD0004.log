@@ -1,0 +1,141 @@
+Logging to file /home/fmuser2/scripts/4g_status/log/RN_OD0004.log
+                        __  __  ____   _____
+                  /\   |  \/  |/ __ \ / ____|
+                 /  \  | \  / | |  | | (___  
+                / /\ \ | |\/| | |  | |\___ \ 
+               / ____ \| |  | | |__| |____) |
+              /_/    \_\_|  |_|\____/|_____/
+              OSS Framework for MoShell-17.0g 
+              
+           
+[1;31mWARNING: [0mthe AMOS version currently running is more than 54 weeks old.
+It is recommended to always use the latest released moshell version.
+To obtain the latest released version contact your local Ericsson support.
+
+$amosrb_pid = 29576
+
+Checking ip contact...OK
+
+HELP MENU            : h
+BASIC MO COMMANDS    : m
+OTHER MO COMMANDS    : n
+OTHER COMMANDS       : o
+PM COMMANDS          : p
+QUIT                 : q
+
+RN_OD0004> lt all
+
+180621-09:19:10 10.48.220.177 17.0g  stopfile=/tmp/29444
+Trying rbs's password from uservariable com_password ...OK
+
+$ssh_pid = 654
+
+Connected to 10.48.220.177 (SubNetwork=ONRM_RootMo_R,SubNetwork=eNB_OD,MeContext=RN_OD0004,ManagedElement=RN_OD0004)
+
+Checking MOM version...MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f
+Parsing MOM (cached): /var/opt/ericsson/amos/moshell_logfiles/fmuser2/logs_moshell/tempfiles/20180621-091902_29370/MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f.xml.cache.gz ....................................................................................................Done.
+Using paramfile /opt/ericsson/amos/moshell/commonjars/pm/PARAM_MSRBS_16B.txt
+Parsing file /opt/ericsson/amos/moshell/commonjars/pm/PARAM_MSRBS_16B.txt .................................Done.
+Using imomdfile /opt/ericsson/amos/moshell/commonjars/pm/IMOMD_MSRBS_16B.txt
+Using imomfile /opt/ericsson/amos/moshell/commonjars/pm/IMOM_MSRBS_16B.txt
+Connected to 10.48.220.177 (SubNetwork=ONRM_RootMo_R,SubNetwork=eNB_OD,MeContext=RN_OD0004,ManagedElement=RN_OD0004)
+
+Last MO:  9514. Loaded 9514 MOs. Total:  9515 MOs.
+
+RN_OD0004> s+
+
+Sorting of MO list by order of LDN: activated.
+
+RN_OD0004> prox
+
+Display of proxy in get <mo> <attr> = enabled
+
+RN_OD0004> l+ /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+
+Logging to file: /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+
+RN_OD0004> st cell
+
+180621-09:19:24 10.48.220.177 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/29444
+===================================================================================
+Proxy  Adm State     Op. State     MO
+===================================================================================
+   33  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=OD0004L11
+  126  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=OD0004L21
+  226  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=OD0004L31
+===================================================================================
+Total: 3 MOs
+
+RN_OD0004> lget . eNBid
+
+180621-09:19:25 10.48.220.177 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/29444
+=================================================================================================================
+Proxy MO                                                      Attribute         Value
+=================================================================================================================
+    1 ENodeBFunction=1                                        eNBId             860004
+  323 EUtraNetwork=1,ExternalENodeBFunction=1                 eNBId             860033
+  327 EUtraNetwork=1,ExternalENodeBFunction=1,TermPointToENB=2556-860033 termPointToENBId  2556-860033
+  328 EUtraNetwork=1,ExternalENodeBFunction=2556-860033       eNBId             860033
+  338 EUtraNetwork=1,ExternalENodeBFunction=2556-860033,TermPointToENB=2556-860033 termPointToENBId  2556-860033
+  339 EUtraNetwork=1,ExternalENodeBFunction=2556-860034       eNBId             860034
+  343 EUtraNetwork=1,ExternalENodeBFunction=2556-860034,TermPointToENB=2556-860034 termPointToENBId  2556-860034
+  344 EUtraNetwork=1,ExternalENodeBFunction=2556-860035       eNBId             860035
+  348 EUtraNetwork=1,ExternalENodeBFunction=2556-860035,TermPointToENB=2556-860035 termPointToENBId  2556-860035
+  349 EUtraNetwork=1,ExternalENodeBFunction=2556-860036       eNBId             860036
+  351 EUtraNetwork=1,ExternalENodeBFunction=2556-860036,TermPointToENB=2556-860036 termPointToENBId  2556-860036
+  352 EUtraNetwork=1,ExternalENodeBFunction=2556-860037       eNBId             860037
+  353 EUtraNetwork=1,ExternalENodeBFunction=2556-860037,TermPointToENB=2556-860037 termPointToENBId  2556-860037
+  354 EUtraNetwork=1,ExternalENodeBFunction=2556-860039       eNBId             860039
+  357 EUtraNetwork=1,ExternalENodeBFunction=2556-860039,TermPointToENB=2556-860039 termPointToENBId  2556-860039
+  358 EUtraNetwork=1,ExternalENodeBFunction=2556-860040       eNBId             860040
+  360 EUtraNetwork=1,ExternalENodeBFunction=2556-860040,TermPointToENB=2556-860040 termPointToENBId  2556-860040
+  361 EUtraNetwork=1,ExternalENodeBFunction=2556-860072       eNBId             860072
+  362 EUtraNetwork=1,ExternalENodeBFunction=2556-860074       eNBId             860074
+  363 EUtraNetwork=1,ExternalENodeBFunction=2556-860114       eNBId             860114
+  365 EUtraNetwork=1,ExternalENodeBFunction=2556-860114,TermPointToENB=2556-860114 termPointToENBId  2556-860114
+  366 EUtraNetwork=1,ExternalENodeBFunction=2556-860116       eNBId             860116
+  368 EUtraNetwork=1,ExternalENodeBFunction=2556-860116,TermPointToENB=2556-860116 termPointToENBId  2556-860116
+  369 EUtraNetwork=1,ExternalENodeBFunction=2556-860132       eNBId             860132
+  373 EUtraNetwork=1,ExternalENodeBFunction=2556-860132,TermPointToENB=2556-860132 termPointToENBId  2556-860132
+  374 EUtraNetwork=1,ExternalENodeBFunction=2556-860136       eNBId             860136
+  381 EUtraNetwork=1,ExternalENodeBFunction=2556-860136,TermPointToENB=2556-860136 termPointToENBId  2556-860136
+  382 EUtraNetwork=1,ExternalENodeBFunction=2556-860161       eNBId             860161
+  385 EUtraNetwork=1,ExternalENodeBFunction=2556-860161,TermPointToENB=2556-860161 termPointToENBId  2556-860161
+  386 EUtraNetwork=1,ExternalENodeBFunction=2556-860162       eNBId             860162
+  393 EUtraNetwork=1,ExternalENodeBFunction=2556-860162,TermPointToENB=2556-860162 termPointToENBId  2556-860162
+  394 EUtraNetwork=1,ExternalENodeBFunction=2556-860179       eNBId             860179
+  395 EUtraNetwork=1,ExternalENodeBFunction=2556-860179,TermPointToENB=2556-860179 termPointToENBId  2556-860179
+  396 EUtraNetwork=1,ExternalENodeBFunction=2556-860204       eNBId             860204
+  398 EUtraNetwork=1,ExternalENodeBFunction=2556-860204,TermPointToENB=2556-860204 termPointToENBId  2556-860204
+  399 EUtraNetwork=1,ExternalENodeBFunction=2556-860207       eNBId             860207
+  401 EUtraNetwork=1,ExternalENodeBFunction=2556-860207,TermPointToENB=2556-860207 termPointToENBId  2556-860207
+  402 EUtraNetwork=1,ExternalENodeBFunction=2556-860254       eNBId             860254
+  405 EUtraNetwork=1,ExternalENodeBFunction=2556-860254,TermPointToENB=2556-860254 termPointToENBId  2556-860254
+  406 EUtraNetwork=1,ExternalENodeBFunction=2556-860339       eNBId             860339
+  407 EUtraNetwork=1,ExternalENodeBFunction=2556-860342       eNBId             860342
+  410 EUtraNetwork=1,ExternalENodeBFunction=2556-860342,TermPointToENB=2556-860342 termPointToENBId  2556-860342
+  411 EUtraNetwork=1,ExternalENodeBFunction=2556-860349       eNBId             860349
+  413 EUtraNetwork=1,ExternalENodeBFunction=2556-860349,TermPointToENB=2556-860349 termPointToENBId  2556-860349
+  414 EUtraNetwork=1,ExternalENodeBFunction=2556-860410       eNBId             860410
+  415 EUtraNetwork=1,ExternalENodeBFunction=2556-860457       eNBId             860457
+  419 EUtraNetwork=1,ExternalENodeBFunction=2556-860457,TermPointToENB=2556-860457 termPointToENBId  2556-860457
+  420 EUtraNetwork=1,ExternalENodeBFunction=860034_255_6_2    eNBId             860034
+  424 EUtraNetwork=1,ExternalENodeBFunction=860034_255_6_2,TermPointToENB=2556-860034 termPointToENBId  2556-860034
+  425 EUtraNetwork=1,ExternalENodeBFunction=860035_255_6_2    eNBId             860035
+  429 EUtraNetwork=1,ExternalENodeBFunction=860035_255_6_2,TermPointToENB=2556-860035 termPointToENBId  2556-860035
+  430 EUtraNetwork=1,ExternalENodeBFunction=860036_255_6_2    eNBId             860036
+  433 EUtraNetwork=1,ExternalENodeBFunction=860036_255_6_2,TermPointToENB=2556-860036 termPointToENBId  2556-860036
+  434 EUtraNetwork=1,ExternalENodeBFunction=860039_255_6_2    eNBId             860039
+  437 EUtraNetwork=1,ExternalENodeBFunction=860161_255_6_2    eNBId             860161
+  440 EUtraNetwork=1,ExternalENodeBFunction=860161_255_6_2,TermPointToENB=2556-860161 termPointToENBId  2556-860161
+=================================================================================================================
+Total: 56 MOs
+
+
+RN_OD0004> l-
+
+Log close: /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+
+RN_OD0004> q
+Bye...
+Output has been logged to file /home/fmuser2/scripts/4g_status/log/RN_OD0004.log

@@ -1,0 +1,477 @@
+Log start: 180621-094223 - 10.48.49.148 - moshell 17.0g - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+
+RN_CH0052> st cell
+
+180621-09:42:23 10.48.49.148 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24642
+===================================================================================
+Proxy  Adm State     Op. State     MO
+===================================================================================
+   32  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0052L11
+   79  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0052L21
+  126  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0052L31
+===================================================================================
+Total: 3 MOs
+Log start: 180621-094224 - 10.48.49.66 - moshell 17.0g - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+
+RN_CH0052> lget . eNBid
+
+180621-09:42:24 10.48.49.148 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24642
+=================================================================================================================
+Proxy MO                                                      Attribute         Value
+=================================================================================================================
+    1 ENodeBFunction=1                                        eNBId             950052
+=================================================================================================================
+Total: 1 MOs
+
+
+Log close: 180621-094224 - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+Log start: 180621-094224 - 10.48.49.113 - moshell 17.0g - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+
+RN_CH0044> st cell
+
+180621-09:42:24 10.48.49.66 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24582
+===================================================================================
+Proxy  Adm State     Op. State     MO
+===================================================================================
+   32  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0044L11
+   79  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0044L21
+  126  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0044L31
+===================================================================================
+Total: 3 MOs
+
+RN_CH0036> st cell
+
+180621-09:42:25 10.48.49.113 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24637
+===================================================================================
+Proxy  Adm State     Op. State     MO
+===================================================================================
+   32  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0036L11
+   78  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0036L21
+===================================================================================
+Total: 2 MOs
+
+RN_CH0044> lget . eNBid
+
+180621-09:42:25 10.48.49.66 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24582
+=================================================================================================================
+Proxy MO                                                      Attribute         Value
+=================================================================================================================
+    1 ENodeBFunction=1                                        eNBId             950044
+=================================================================================================================
+Total: 1 MOs
+
+
+Log close: 180621-094226 - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+Log start: 180621-094226 - 10.49.62.117 - moshell 17.0g - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+
+RN_CH0036> lget . eNBid
+
+180621-09:42:25 10.48.49.113 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24637
+=================================================================================================================
+Proxy MO                                                      Attribute         Value
+=================================================================================================================
+    1 ENodeBFunction=1                                        eNBId             950036
+=================================================================================================================
+Total: 1 MOs
+
+
+Log close: 180621-094226 - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+Log start: 180621-094226 - 10.48.48.225 - moshell 17.0g - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+
+RN_CH0009> st cell
+
+180621-09:42:26 10.49.62.117 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24560
+===================================================================================
+Proxy  Adm State     Op. State     MO
+===================================================================================
+   32  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0009L11
+   74  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0009L21
+  116  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0009L31
+===================================================================================
+Total: 3 MOs
+Log start: 180621-094226 - 10.48.48.193 - moshell 17.0g - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+
+RN_CH0041> st cell
+
+180621-09:42:26 10.48.48.225 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24627
+===================================================================================
+Proxy  Adm State     Op. State     MO
+===================================================================================
+Log start: 180621-094227 - 10.48.49.83 - moshell 17.0g - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+   32  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0041L11
+   74  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0041L21
+  116  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0041L31
+===================================================================================
+Total: 3 MOs
+Log start: 180621-094227 - 10.48.48.123 - moshell 17.0g - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+
+RN_CH0009> lget . eNBid
+
+180621-09:42:26 10.49.62.117 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24560
+=================================================================================================================
+Proxy MO                                                      Attribute         Value
+=================================================================================================================
+    1 ENodeBFunction=1                                        eNBId             950009
+  159 EUtraNetwork=1,ExternalENodeBFunction=2556-950006       eNBId             950006
+  160 EUtraNetwork=1,ExternalENodeBFunction=2556-950006,TermPointToENB=2556-950006 termPointToENBId  2556-950006
+  161 EUtraNetwork=1,ExternalENodeBFunction=2556-950014       eNBId             950014
+  162 EUtraNetwork=1,ExternalENodeBFunction=2556-950014,TermPointToENB=2556-950014 termPointToENBId  2556-950014
+=================================================================================================================
+Total: 5 MOs
+
+
+Log close: 180621-094227 - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+Log start: 180621-094227 - 10.49.62.181 - moshell 17.0g - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+Log start: 180621-094227 - 10.48.49.65 - moshell 17.0g - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+Log start: 180621-094227 - 10.49.62.129 - moshell 17.0g - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+
+RN_CH0012> st cell
+
+180621-09:42:27 10.48.48.193 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24419
+===================================================================================
+Proxy  Adm State     Op. State     MO
+===================================================================================
+Log start: 180621-094227 - 10.49.62.157 - moshell 17.0g - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+   32  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0012L11
+   74  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0012L21
+  116  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0012L31
+===================================================================================
+Total: 3 MOs
+
+RN_CH0041> lget . eNBid
+
+180621-09:42:27 10.48.48.225 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24627
+=================================================================================================================
+Proxy MO                                                      Attribute         Value
+=================================================================================================================
+    1 ENodeBFunction=1                                        eNBId             950041
+  159 EUtraNetwork=1,ExternalENodeBFunction=2556-950018       eNBId             950018
+  160 EUtraNetwork=1,ExternalENodeBFunction=2556-950018,TermPointToENB=2556-950018 termPointToENBId  2556-950018
+=================================================================================================================
+Total: 3 MOs
+
+
+Log close: 180621-094227 - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+
+RN_CH0054> st cell
+
+180621-09:42:27 10.48.49.83 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24610
+===================================================================================
+Proxy  Adm State     Op. State     MO
+===================================================================================
+
+RN_CH0019> st cell
+
+180621-09:42:27 10.48.48.123 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24540
+===================================================================================
+Proxy  Adm State     Op. State     MO
+===================================================================================
+   32  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0054L11
+   79  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0054L21
+  126  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0054L31
+===================================================================================
+Total: 3 MOs
+   32  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0019L11
+   74  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0019L21
+  116  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0019L31
+===================================================================================
+Total: 3 MOs
+
+RN_CH0026> st cell
+
+180621-09:42:27 10.49.62.181 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24624
+===================================================================================
+Proxy  Adm State     Op. State     MO
+===================================================================================
+Log start: 180621-094227 - 10.48.48.33 - moshell 17.0g - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+   32  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0026L11
+   74  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0026L21
+  116  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0026L31
+===================================================================================
+Total: 3 MOs
+
+RN_CH0024> st cell
+
+180621-09:42:27 10.48.49.65 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24588
+===================================================================================
+Proxy  Adm State     Op. State     MO
+===================================================================================
+
+RN_CH0015> st cell
+
+180621-09:42:27 10.49.62.129 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24520
+===================================================================================
+Proxy  Adm State     Op. State     MO
+===================================================================================
+   32  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0024L11
+   79  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0024L21
+  126  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0024L31
+===================================================================================
+Total: 3 MOs
+Log start: 180621-094228 - 10.49.62.169 - moshell 17.0g - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+   32  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0015L11
+   74  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0015L21
+  116  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0015L31
+===================================================================================
+Total: 3 MOs
+Log start: 180621-094228 - 10.49.62.149 - moshell 17.0g - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+
+RN_CH0023> st cell
+
+180621-09:42:27 10.49.62.157 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24630
+===================================================================================
+Proxy  Adm State     Op. State     MO
+===================================================================================
+   32  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0023L11
+   79  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0023L21
+  126  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0023L31
+===================================================================================
+Total: 3 MOs
+
+RN_CH0012> lget . eNBid
+
+180621-09:42:27 10.48.48.193 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24419
+=================================================================================================================
+Proxy MO                                                      Attribute         Value
+=================================================================================================================
+    1 ENodeBFunction=1                                        eNBId             950012
+  159 EUtraNetwork=1,ExternalENodeBFunction=2556-950010       eNBId             950010
+  160 EUtraNetwork=1,ExternalENodeBFunction=2556-950010,TermPointToENB=2556-950010 termPointToENBId  2556-950010
+  161 EUtraNetwork=1,ExternalENodeBFunction=2556-950018       eNBId             950018
+  162 EUtraNetwork=1,ExternalENodeBFunction=2556-950018,TermPointToENB=2556-950018 termPointToENBId  2556-950018
+=================================================================================================================
+Total: 5 MOs
+
+
+Log close: 180621-094228 - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+
+RN_CH0054> lget . eNBid
+
+180621-09:42:27 10.48.49.83 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24610
+=================================================================================================================
+Proxy MO                                                      Attribute         Value
+=================================================================================================================
+    1 ENodeBFunction=1                                        eNBId             950054
+=================================================================================================================
+Total: 1 MOs
+
+
+Log close: 180621-094228 - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+
+RN_CH0019> lget . eNBid
+
+180621-09:42:27 10.48.48.123 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24540
+=================================================================================================================
+Proxy MO                                                      Attribute         Value
+=================================================================================================================
+    1 ENodeBFunction=1                                        eNBId             950019
+  159 EUtraNetwork=1,ExternalENodeBFunction=2556-950006       eNBId             950006
+  160 EUtraNetwork=1,ExternalENodeBFunction=2556-950006,TermPointToENB=2556-950006 termPointToENBId  2556-950006
+  161 EUtraNetwork=1,ExternalENodeBFunction=2556-950014       eNBId             950014
+  162 EUtraNetwork=1,ExternalENodeBFunction=2556-950014,TermPointToENB=2556-950014 termPointToENBId  2556-950014
+=================================================================================================================
+Total: 5 MOs
+
+Log start: 180621-094228 - 10.48.49.146 - moshell 17.0g - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+
+Log close: 180621-094228 - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+Log start: 180621-094228 - 10.48.48.122 - moshell 17.0g - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+
+RN_CH0040> st cell
+
+180621-09:42:27 10.48.48.33 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24612
+===================================================================================
+Proxy  Adm State     Op. State     MO
+===================================================================================
+
+RN_CH0024> lget . eNBid
+
+180621-09:42:28 10.48.49.65 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24588
+=================================================================================================================
+Proxy MO                                                      Attribute         Value
+=================================================================================================================
+    1 ENodeBFunction=1                                        eNBId             950024
+=================================================================================================================
+Total: 1 MOs
+
+
+Log close: 180621-094228 - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+   32  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0040L11
+   74  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0040L21
+  116  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0040L31
+===================================================================================
+Total: 3 MOs
+
+RN_CH0025> st cell
+
+180621-09:42:28 10.49.62.169 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24619
+===================================================================================
+Proxy  Adm State     Op. State     MO
+===================================================================================
+Log start: 180621-094228 - 10.48.48.121 - moshell 17.0g - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+
+RN_CH0015> lget . eNBid
+
+180621-09:42:28 10.49.62.129 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24520
+=================================================================================================================
+Proxy MO                                                      Attribute         Value
+=================================================================================================================
+    1 ENodeBFunction=1                                        eNBId             950015
+  159 EUtraNetwork=1,ExternalENodeBFunction=2556-950006       eNBId             950006
+  160 EUtraNetwork=1,ExternalENodeBFunction=2556-950006,TermPointToENB=2556-950006 termPointToENBId  2556-950006
+  161 EUtraNetwork=1,ExternalENodeBFunction=2556-950014       eNBId             950014
+  162 EUtraNetwork=1,ExternalENodeBFunction=2556-950014,TermPointToENB=2556-950014 termPointToENBId  2556-950014
+  163 EUtraNetwork=1,ExternalENodeBFunction=2556-950018       eNBId             950018
+  164 EUtraNetwork=1,ExternalENodeBFunction=2556-950018,TermPointToENB=2556-950018 termPointToENBId  2556-950018
+=================================================================================================================
+Total: 7 MOs
+
+
+Log close: 180621-094228 - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+   32  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0025L11
+   79  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0025L21
+  126  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0025L31
+===================================================================================
+Total: 3 MOs
+
+RN_CH0022> st cell
+
+180621-09:42:28 10.49.62.149 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24543
+===================================================================================
+Proxy  Adm State     Op. State     MO
+===================================================================================
+   32  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0022L11
+   79  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0022L21
+  126  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0022L31
+===================================================================================
+Total: 3 MOs
+
+RN_CH0023> lget . eNBid
+
+180621-09:42:28 10.49.62.157 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24630
+=================================================================================================================
+Proxy MO                                                      Attribute         Value
+=================================================================================================================
+    1 ENodeBFunction=1                                        eNBId             950023
+=================================================================================================================
+Total: 1 MOs
+
+
+Log close: 180621-094228 - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+Log start: 180621-094228 - 10.49.62.101 - moshell 17.0g - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+
+RN_CH0033> st cell
+
+180621-09:42:28 10.48.49.146 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24632
+===================================================================================
+Proxy  Adm State     Op. State     MO
+===================================================================================
+   32  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0033L11
+   74  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0033L21
+  116  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0033L31
+===================================================================================
+Total: 3 MOs
+
+RN_CH0040> lget . eNBid
+
+180621-09:42:28 10.48.48.33 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24612
+=================================================================================================================
+Proxy MO                                                      Attribute         Value
+=================================================================================================================
+    1 ENodeBFunction=1                                        eNBId             950040
+  159 EUtraNetwork=1,ExternalENodeBFunction=2556-950006       eNBId             950006
+  160 EUtraNetwork=1,ExternalENodeBFunction=2556-950006,TermPointToENB=2556-950006 termPointToENBId  2556-950006
+  161 EUtraNetwork=1,ExternalENodeBFunction=2556-950007       eNBId             950007
+  162 EUtraNetwork=1,ExternalENodeBFunction=2556-950007,TermPointToENB=2556-950007 termPointToENBId  2556-950007
+=================================================================================================================
+Total: 5 MOs
+
+
+Log close: 180621-094229 - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+
+RN_CH0003> st cell
+
+180621-09:42:28 10.48.48.121 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24418
+===================================================================================
+Proxy  Adm State     Op. State     MO
+===================================================================================
+   32  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0003L11
+   79  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0003L21
+  126  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0003L31
+===================================================================================
+Total: 3 MOs
+
+RN_CH0017> st cell
+
+180621-09:42:28 10.48.48.122 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24527
+===================================================================================
+Proxy  Adm State     Op. State     MO
+===================================================================================
+Log start: 180621-094229 - 10.49.62.137 - moshell 17.0g - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+   32  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0017L11
+   79  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0017L21
+  126  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0017L31
+===================================================================================
+Total: 3 MOs
+Log start: 180621-094229 - 10.48.48.26 - moshell 17.0g - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+
+RN_CH0002> st cell
+
+180621-09:42:28 10.49.62.101 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24336
+===================================================================================
+Proxy  Adm State     Op. State     MO
+===================================================================================
+Log start: 180621-094229 - 10.48.49.105 - moshell 17.0g - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+
+RN_CH0026> lget . eNBid
+
+180621-09:42:27 10.49.62.181 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24624
+=================================================================================================================
+Proxy MO                                                      Attribute         Value
+=================================================================================================================
+    1 ENodeBFunction=1                                        eNBId             950026
+  159 EUtraNetwork=1,ExternalENodeBFunction=2556-950018       eNBId             950018
+  160 EUtraNetwork=1,ExternalENodeBFunction=2556-950018,TermPointToENB=2556-950018 termPointToENBId  2556-950018
+=================================================================================================================
+Total: 3 MOs
+
+
+Log close: 180621-094229 - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+
+RN_CH0022> lget . eNBid
+
+180621-09:42:28 10.49.62.149 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24543
+=================================================================================================================
+Proxy MO                                                      Attribute         Value
+=================================================================================================================
+    1 ENodeBFunction=1                                        eNBId             950022
+=================================================================================================================
+Total: 1 MOs
+
+
+Log close: 180621-094229 - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+   32  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0002L11
+   79  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0002L21
+  126  0 (LOCKED)    0 (DISABLED)  ENodeBFunction=1,EUtranCellFDD=CH0002L31
+===================================================================================
+Total: 3 MOs
+Log start: 180621-094229 - 10.48.49.147 - moshell 17.0g - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+Log start: 180621-094229 - 10.48.48.105 - moshell 17.0g - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+
+RN_CH0033> lget . eNBid
+
+180621-09:42:29 10.48.49.146 17.0g MSRBS_NODE_MODEL_17.Q3_330.27706.46_f74f stopfile=/tmp/24632
+=================================================================================================================
+Proxy MO                                                      Attribute         Value
+=================================================================================================================
+    1 ENodeBFunction=1                                        eNBId             950033
+  159 EUtraNetwork=1,ExternalENodeBFunction=2556-950006       eNBId             950006
+  160 EUtraNetwork=1,ExternalENodeBFunction=2556-950006,TermPointToENB=2556-950006 termPointToENBId  2556-950006
+  161 EUtraNetwork=1,ExternalENodeBFunction=2556-950039       eNBId             950039
+  162 EUtraNetwork=1,ExternalENodeBFunction=2556-950039,TermPointToENB=2556-950039 termPointToENBId  2556-950039
+=================================================================================================================
+Total: 5 MOs
+
+
+Log close: 180621-094229 - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
+Log start: 180621-094229 - 10.48.48.25 - moshell 17.0g - /home/fmuser2/scripts/4g_status/4g_cell_status.txt
