@@ -1,0 +1,10 @@
+RN_CH0044> lget . eNBid
+    1 ENodeBFunction=1                                        eNBId             950044
+RN_CH0036> lget . eNBid
+    1 ENodeBFunction=1                                        eNBId             950036
+RN_CH0052> lget . eNBid
+    1 ENodeBFunction=1                                        eNBId             950052
+RN_CH0012> lget . eNBid
+    1 ENodeBFunction=1                                        eNBId             950012
+RN_CH0024> lget . eNBid
+    1 ENodeBFunction=1                                        eNBId             950024
